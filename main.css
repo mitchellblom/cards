@@ -1,0 +1,35 @@
+article {
+	border: 1px solid lightblue;
+	max-width: 30%;
+	display: inline-block;
+	flex-wrap: wrap;
+	align-self: flex-start;
+	margin-top: 0;
+}
+
+p {
+	text-align: justify;
+	margin: 5%;
+}
+
+body article header h2 {
+	border: 1px dotted lightgray;
+	text-align: center;
+}
+
+img.clip {
+	max-width: 100px;
+	max-height: 50px;
+	display: block;
+	margin: 0 auto;
+}
+
+.strong {
+	font-weight: bold;
+}
+
+.av {
+	margin: 0;
+	background-color: darkgray;
+	color: yellow;
+}
